@@ -4,7 +4,6 @@ package com.codecool.TaskTiger.controller;
 import com.codecool.TaskTiger.dto.LoginDTO;
 import com.codecool.TaskTiger.dto.NewUserDTO;
 import com.codecool.TaskTiger.model.TimeSlot;
-import com.codecool.TaskTiger.model.WorkType;
 import com.codecool.TaskTiger.model.user.TaskerInfo;
 import com.codecool.TaskTiger.model.user.User;
 import com.codecool.TaskTiger.service.UserService;
@@ -12,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.WeakHashMap;
 
 @RestController
 @RequestMapping("users")
